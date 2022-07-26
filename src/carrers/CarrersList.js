@@ -45,6 +45,6 @@ export const CarrersList = [
         image: PO,
         description: "Pessoa que representa os interesses de stakeholders, define funcionalidades do produto e faz a gestão do backlog, priorizando tarefas segundo métodos ágeis, como o Scrum.",
         links: "Conheça mais"
-    }
+    },
    
 ]
