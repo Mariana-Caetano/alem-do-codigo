@@ -19,3 +19,12 @@
   .footer p {
     color: white;
   }
+
+  .nameFooter {
+    color: #DCD4EB;
+    text-decoration: none;
+  }
+
+  .nameFooter:hover {
+    color: #D5ABD1;
+  }

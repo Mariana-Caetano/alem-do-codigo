@@ -8,9 +8,18 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <GitHubIcon /> <LinkedInIcon /> <InstagramIcon /> 
+        <a href="https://github.com/Mariana-Caetano/alem-do-codigo" target="_blank" rel="noreferrer">
+          <GitHubIcon />
+        </a> 
+
+        <a href="https://www.linkedin.com/in/marianacaetanop/" target="_blank" rel="noreferrer">
+          <LinkedInIcon /> 
+        </a>
+        <a href="https://www.instagram.com/nanahcaetano/" target="_blank" rel="noreferrer">
+          <InstagramIcon /> 
+        </a>
       </div>
-      <p> Feito com amor por Mariana Caetano</p>
+      <p> Feito com amor por <a href="https://www.linkedin.com/in/marianacaetanop/" target="_blank" rel="noreferrer" className="nameFooter">Mariana Caetano</a></p>
     </div>
   )
 }
