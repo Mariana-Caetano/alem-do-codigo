@@ -69,3 +69,9 @@
   .buttonColab a:hover {
     color: #453981;
   }
+  
+  table, th, td {
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
