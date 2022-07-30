@@ -6,7 +6,7 @@ function CareerItem({ image, name, description, links }) {
         <div className='careerImage' style={{backgroundImage: `url(${image})`}}></div>
         <h1>{name}</h1>
         <p>{description}</p>
-        <a href='www.google.com'>{links}</a>
+        <a href={links} target="_blank" rel="noreferrer">Conheça mais</a>
     </div>
   )
 }
