@@ -1,6 +1,13 @@
 # Além do Código
 ![pagegif](https://user-images.githubusercontent.com/67270558/181876178-fb16dad9-4a92-478c-80a9-3e84088bcb30.gif)
 
+## Índice
+
+- [Sobre](#sobre)
+- [Tecnologias e ferramentas](#tecnologias-e-ferramentas)
+- [Clonando o projeto](#clonando-o-projeto)
+- [Colaborando com o projeto](#colaborando-com-o-projeto)
+
 ## Sobre
 
 O [`Além do código`](https://alemdocodigo.netlify.app/) é um projeto com a proposta de ajudar pessoas a conhecerem outras profissões na tecnologia, além da área de Desenvolvimento e mostrar que mesmo que não queira programar, é possível trabalhar em tech.
@@ -40,6 +47,7 @@ Você pode colaborar com o [`Além do código`](https://alemdocodigo.netlify.app
 - [Criando uma issue no GitHub reportando bugs e sugerindo mudanças ou ideias]().
 - [Entrando em contato para sugestões]().
 Confira abaixo como colaborar com as três opções.
+
 ### Adicionando uma nova carreira
 1. Faça o fork do projeto no [repo. do Github](https://github.com/Mariana-Caetano/alem-do-codigo).
 2. Abra o seu terminal e clone o projeto usando o seguinte comando: 
@@ -68,7 +76,7 @@ git checkout -b add-links-seu-nome
 ``` 
 10. Aguarde para revisão e confirmação das alterações que seram feitas no seu Pull Request.
 
-## Criando uma issue no GitHub
+### Criando uma issue no GitHub
 > ℹ Para saber mais sobre issues, acesse a [documentação oficial do GitHub](https://docs.github.com/pt/issues/tracking-your-work-with-issues/creating-an-issue).
 
 1. Acesse o [repo. do Github](https://github.com/Mariana-Caetano/alem-do-codigo).
@@ -83,7 +91,7 @@ git checkout -b add-links-seu-nome
 3. Após escolher, escreva o porquê está criando uma issue e uma possível solução.
 4. Aguarde a revisão da issue para chegarmos na melhor solução.
 
-## Entrando em contato
+### Entrando em contato
 Se você quer colaborar com o `Além do código`, mas prefere não usar o código, clique no botão abaixo e [envie um email](nanah.caetano@gmail) com sua ideia de colaboração.
 
             
