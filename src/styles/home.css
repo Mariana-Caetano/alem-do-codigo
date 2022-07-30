@@ -1,6 +1,6 @@
 .home {
     width: 100%;
-    height: 90vh;
+    /*height: 90vh;*/
     display: flex;
     justify-content: center;
     align-items: left;
@@ -14,6 +14,7 @@
   .headerContainer {
     width: auto;
     margin-left: 50px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
   
   .headerContainer h1 {
@@ -46,6 +47,7 @@
   .sobre {
     margin-top: 10%;
     margin-bottom: 10%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   }
 
   .sobre p {
