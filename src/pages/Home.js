@@ -9,10 +9,10 @@ function Home() {
         <div className='headerContainer'>
             <h1> 
               <code>Além do código</code> 
-              <img src={Image} alt="três pessoas com um laptop"/>
+              <img src={Image} alt="três pessoas com um laptop" className='imgHome'/>
             </h1>
             
-            <h2> Porque em tecnologia tem carreira para todos </h2>
+            <h2> Porque em tecnologia, tem carreira para todos </h2>
             <Link to="/carreiras">
                 <button><p>CONHEÇA AS CARREIRAS</p></button>
             </Link>
