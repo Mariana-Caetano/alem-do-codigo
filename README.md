@@ -5,7 +5,7 @@
 
 O [`Além do código`](https://alemdocodigo.netlify.app/) é um projeto com a proposta de ajudar pessoas a conhecerem outras profissões na tecnologia, além da área de Desenvolvimento e mostrar que mesmo que não queira programar, é possível trabalhar em tech.
 
-O projeto vem com a proposta de ser *open soure*, assim quem quiser adicionar mais uma carreira no catálogo, poderá colaborar.
+O projeto é *open soure*, assim quem quiser adicionar mais uma carreira no catálogo, poderá colaborar.
 
 ## Tecnologias e ferramentas
 - [React.js](https://pt-br.reactjs.org/)
