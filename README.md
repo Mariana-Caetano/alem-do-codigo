@@ -1,70 +1,88 @@
-# Getting Started with Create React App
+# Além do Código
+![pagegif](https://user-images.githubusercontent.com/67270558/181876178-fb16dad9-4a92-478c-80a9-3e84088bcb30.gif)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre
 
-## Available Scripts
+O [`Além do código`](https://alemdocodigo.netlify.app/) é um projeto com a proposta de ajudar pessoas a conhecerem outras profissões na tecnologia, além da área de Desenvolvimento e mostrar que mesmo que não queira programar, é possível trabalhar em tech.
 
-In the project directory, you can run:
+O projeto vem com a proposta de ser *open soure*, assim quem quiser adicionar mais uma carreira no catálogo, poderá colaborar.
 
-### `npm start`
+## Tecnologias e ferramentas
+- [React.js](https://pt-br.reactjs.org/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+- [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS/)
+### Bibliotecas React
+- [react-router-dom](https://v5.reactrouter.com/web/guides/quick-start)
+- [material-icon](https://mui.com/pt/material-ui/material-icons/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Ferramentas
+- [Hyper](https://hyper.is/)
+- [GitHub](https://docs.github.com/pt)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Figma](https://www.figma.com/)
+- [Netlify](https://www.netlify.com/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Clonando o projeto
 
-### `npm test`
+```
+# Clone o repositório
+$ git clone https://github.com/Mariana-Caetano/alem-do-codigo.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Abra o terminal e acesse a pasta do projeto 
+$ cd alem-do-codigo
 
-### `npm run build`
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Colaborando com o projeto
+Você pode colaborar com o [`Além do código`](https://alemdocodigo.netlify.app/) de três maneiras:
+- [Adicionando uma nova carreira](#adicionando-uma-nova-carreira).
+- [Criando uma issue no GitHub reportando bugs e sugerindo mudanças ou ideias]().
+- [Entrando em contato para sugestões]().
+Confira abaixo como colaborar com as três opções.
+### Adicionando uma nova carreira
+1. Faça o fork do projeto no [repo. do Github](https://github.com/Mariana-Caetano/alem-do-codigo).
+2. Abra o seu terminal e clone o projeto usando o seguinte comando: 
+```
+git clone https://github.com/Mariana-Caetano/alem-do-codigo.git
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+3. Crie uma nova branch para as suas contribuições, usando o comando abaixo: 
+```
+git checkout -b add-links-seu-nome
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+> ℹ Lembre-se de trocar `add-links-seu-nome` pelo nome que desejar.
+                  
+4. Escolha uma imagem do site [unDraw](https://undraw.co/illustrations) e adicione na pasta `/src/assets`.
+5. Abra a pasta `/src/pages` e abra o arquivo `CarrersList.js`.
+6. No arquivo `CarrersList.js`, import a image que adicionou na pasta `assets`. Por exemplo: `import NomeDaCarreira from '../assets/nome-da-imagem.svg'`.
+7. Dentro da `CarrersList` adicione a nova carreira seguindo [este formato](https://github.com/Mariana-Caetano/alem-do-codigo/blob/master/src/carrers/CarrersList.js#L17-L23).
 
-### `npm run eject`
+> ⚠ Coloque a carreira em ordem alfabética.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+8. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "carreira adicionada: Nome da carreira"`.
+9. Envie as suas alterações usando o seguinte comando: 
+```
+    git push origin carreira-seu-nome
+``` 
+10. Aguarde para revisão e confirmação das alterações que seram feitas no seu Pull Request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Criando uma issue no GitHub
+> ℹ Para saber mais sobre issues, acesse a [documentação oficial do GitHub](https://docs.github.com/pt/issues/tracking-your-work-with-issues/creating-an-issue).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Acesse o [repo. do Github](https://github.com/Mariana-Caetano/alem-do-codigo) e clique em `Issues`.
+2. Escolha uma das opções para abrir uma issue:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+| Tipo de issue | Descrição |
+| ------------- | --------- |
+| Bug report | Reporte um erro que está no projeto. |
+| Feature request | Sugira uma ideia para o projeto. |
+                 
+3. Após escolher, escreva o porque está criando uma issue e uma possível solução (se possível).
+4. Aguarde a revisão da issue para chegarmos na melhor solução.
 
-## Learn More
+## Entrando em contato
+Se você quer colaborar com o `Além do código`, mas prefere não usar o código, clique no botão abaixo e [envie um email](nanah.caetano@gmail) com sua ideia de colaboração.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+            
