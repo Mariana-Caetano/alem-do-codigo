@@ -71,7 +71,8 @@ git checkout -b add-links-seu-nome
 ## Criando uma issue no GitHub
 > ℹ Para saber mais sobre issues, acesse a [documentação oficial do GitHub](https://docs.github.com/pt/issues/tracking-your-work-with-issues/creating-an-issue).
 
-1. Acesse o [repo. do Github](https://github.com/Mariana-Caetano/alem-do-codigo) e clique em `Issues`.
+1. Acesse o [repo. do Github](https://github.com/Mariana-Caetano/alem-do-codigo).
+2. Clique em `Issues` > `New issue`.
 2. Escolha uma das opções para abrir uma issue:
 
 | Tipo de issue | Descrição |
@@ -79,7 +80,7 @@ git checkout -b add-links-seu-nome
 | Bug report | Reporte um erro que está no projeto. |
 | Feature request | Sugira uma ideia para o projeto. |
                  
-3. Após escolher, escreva o porque está criando uma issue e uma possível solução (se possível).
+3. Após escolher, escreva o porquê está criando uma issue e uma possível solução.
 4. Aguarde a revisão da issue para chegarmos na melhor solução.
 
 ## Entrando em contato
