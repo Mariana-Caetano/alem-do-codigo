@@ -19,7 +19,7 @@ function Footer() {
           <InstagramIcon /> 
         </a>
       </div>
-      <p> Feito com amor por <a href="https://www.linkedin.com/in/marianacaetanop/" target="_blank" rel="noreferrer" className="nameFooter">Mariana Caetano</a></p>
+      <p> Desenvolvido por <a href="https://www.linkedin.com/in/marianacaetanop/" target="_blank" rel="noreferrer" className="nameFooter">Mariana Caetano</a></p>
     </div>
   )
 }
