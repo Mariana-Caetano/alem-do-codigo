@@ -65,14 +65,14 @@ function Colabore() {
                 </tr>
                 <tr>
                   <td>Bug report</td>
-                  <td>Report um erro que está no projeto.</td>
+                  <td>Reporte um erro que está no projeto.</td>
                 </tr>
                 <tr>
                   <td>Feature request</td>
                   <td>Sugira uma ideia para o projeto.</td>
                 </tr>
               </table>
-              <li>Após escolher, escreva o porque está criando uma issue e uma possível solução (se possível)</li>
+              <li>Após escolher, escreva o porquê está criando uma issue e uma possível solução (se possível)</li>
               <li>Aguarde a revisão da issue para chegarmos na melhor solução.</li>
             </ol>
 
