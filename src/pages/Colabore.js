@@ -78,9 +78,9 @@ function Colabore() {
 
             <h2>Entrando em contato</h2>
             <p>Se você quer colaborar com o <code>Além do código</code>, mas prefere não usar o código, clique no botão abaixo e mande um email com sua ideia de colaboração:</p>
-            <div className='buttonColab'>
-              <button><a href='mailto:nanah.caetano@gmail.com?subject=[Além do Código]%20Quero%20colaborar'><p>ENTRE EM CONTATO</p></a></button>
-            </div>
+            
+              <button className='buttonColab'><a href='mailto:nanah.caetano@gmail.com?subject=[Além do Código]%20Quero%20colaborar'>ENTRE EM CONTATO</a></button>
+            
             
         
     </div>

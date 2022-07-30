@@ -45,12 +45,27 @@
     padding: 1%;
 }
 .buttonColab {
-    margin-bottom: 50px;
-    font-size: 12px;
-    font-weight: bold;
-    color: #CCCCCC;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #453981;
+    height: 50px;
+    width: 180px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-bottom: 5%;
   }
 .buttonColab:hover {
-    background-color: #FCC257;
+    background-color: #C5BBF8;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+  }
+
+  .buttonColab a {
+    color: #CCCCCC;
+  }
+  .buttonColab a:hover {
     color: #453981;
-}
+  }
